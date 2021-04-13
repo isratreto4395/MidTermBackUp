@@ -1,0 +1,35 @@
+A Java variable is a piece of memory that can contain a data value.
+A variable thus has a data type. Data types are covered in more detail in the text on Java data types.
+Variables are typically used to store information which your Java program needs to do its job
+
+
+We are learning file reader in java by input steam and buffer reader
+
+Escape sequence
+Nested class
+Object
+Scanner
+Static
+Variable
+Data Type
+Concatenation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

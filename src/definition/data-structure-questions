@@ -1,0 +1,194 @@
+Please answer the below Data Structure Questions:
+
+1. Why do we need data structure?
+
+We need data structure because Java programmers use data structures to store and organize data. Data structures also
+make it easy to locate and retrieve data and we use algorithms to manipulate the data in those structures.
+
+
+
+2.What are the various operations that can be performed on different Data Structures?
+
+Basic operations you can perform on Data Structures are are:
+Insertion − Add a new data item in the data structure .
+Deletion − Delete an existing data item from the data structure.
+Traversal − Access each data item exactly once so that it can be processed.
+Searching − Find out the location of the data item if it exists in the data structure
+Sorting − Arranging the data items in some order.
+
+
+
+3.List out the areas in which data structures are applied extensively?
+
+Data structures can be applied in areas of:
+Compiler Design
+Operating System
+Database Management System
+Statistical analysis package
+Numerical Analysis
+Graphics
+Artificial Intelligence
+Simulation
+
+
+
+4.what is an Array?
+
+An array is a container object that holds a fixed number of values of a single type.
+
+
+
+5.what is the difference between the Array and ArrayList?
+Array is a fixed length data structure whereas ArrayList is a variable length Collection class.
+We cannot change the length of an array once created in Java but ArrayList can be changed.
+
+
+
+6.what is LinkedList?
+
+The LinkedList class is a collection which can contain many objects of the same type, just like the ArrayList.
+
+
+
+
+7.How is an Array different from Linked List?
+An array is a collection of elements of a similar data type whereas Linked List is an ordered collection of elements of the same type in which each element is connected to the next using pointers.
+
+
+
+
+8.what is queue?
+
+Queue is an interface available in java. util package and extends java.
+
+
+
+9.what is stack?
+
+A Stack is a Last In First Out (LIFO) data structure. It supports two basic operations called push and pop.
+
+
+
+10.what is FIFO and LIFO?
+
+FIFO is an abbreviation for first in, first out. It is a method for handling data structures where the first element is processed first and the newest element is processed last.
+LIFO is an abbreviation for Last in, first out is same as fist in, last out (FILO). It is a method for handling data structures where the last element is processed first and the first element is processed last.
+
+
+
+11.what is the order of complexity?
+
+
+12.what is the best case to search an element from an array?
+
+The best case to search an element for an array is by converting an Array to an ArrayList.
+
+
+
+13.what is the worst case to search an element from an array?
+
+The worst case to search an element for an array is by using a for-each loop.
+
+
+
+14.what is tree in data structure?
+
+In data structure a Tree is a non-linear data structure where data objects are organized in terms of a hierarchical relationship.
+
+
+
+15.what is graph in data structure?
+
+A graph is a data structure for sorting connected data like a network of people on a social media platform.
+
+
+
+16.what is the difference between the HashTable and HashMap?
+
+HashMap isn't synchronized and it doesn't allow any null key or value and a HashTable is synchronized which allows multiple null value.
+
+
+
+
+17.What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model.
+
+The major data structures used in the following areas are:
+RDBMS = Array of structures
+Network data model = graph
+Hierarchical data model = Trees
+
+
+
+18.How HashMap works in java?
+
+It allows to store object and retrieve it when provided with key and value
+
+
+
+
+19.What is ArrayIndexOutOfBoundsException in java? When it occurs?
+
+ArrayIndexOutOfBoundsException is thrown to indicate that we are trying to access an array element with an illegal index.
+This exception occurs when the index is either negative or greater than or equal to the size of the array.
+
+
+
+20.What are the different ways of copying an array into another array?
+There are mainly four different ways of copying an array into another array:
+Manually copy elements one by one into the new array.
+Directly copy one array to another by using Arrays.copyOf() method.
+System.arraycopy() method can be used to copy a subset of an array.
+Object.clone() method creates a new array of the same size.
+
+
+
+21.What is difference between an array and a linked list?
+The entire array is stored in a contiguous block of memory. In LinkedList, different elements are stored at different memory locations. Array is a collection of elements of similar data type. LinkedList is an ordered collection of elements of the same type, which are connected to each other using pointers. The size of an array is specified at the time of declaration and cannot be changed afterward. Data items can be removed or added from the LinkedList whenever needed.
+
+
+
+22.What is DFS and BFS?
+
+
+
+23.What is Recursion?
+
+Recursion is the technique of making a function call itself.
+
+
+
+24.What are linear and non linear data Structures?
+
+
+
+
+25.What is Big-(O)-notation?
+
+Big O Notation is a relative representation of an algorithm's complexity.
+
+
+
+26.Outlined different kind of sorting algorithm with time complexity?
+
+There is: selection Sort, bubble sort, insertion sort, heap sort, quick sort, merge sort, bucket sort, radix sort
+
+
+
+27.Draw a table with time complexity in which it will summarize all the data structure feature's advantages and disadvantages.
+  a)In terms of Accessing element.
+  b)In terms of Inserting element.
+  c)In terms of Searching element.
+  d)In terms of Removing element.
+
+
+++-----------------++----------++------------++------------++-----------++---------------
+  ||Datastructures   ||Accessing || Insertion  || Searching  || Removing  |
+  ++_________________||__________||____________||____________|
+  ||Array        	|| 0(1) 	|| 0(n)   	|| 0(n)   	|| 0(n)  	||
+  ||Stack        	|| 0(n)     || 0(1)   	|| 0(n)   	|| 0(1)  	||
+  ||Queue        	|| 0(n) 	|| 0(1)   	|| 0(n)   	|| 0(1)  	||
+  ||Singly-Linkedlist|| 0(n) 	|| 0(1)   	|| 0(n)   	|| 0(1)  	||
+  ||Doubly-LinkedList|| 0(n) 	|| 0(1)   	|| 0(n)   	|| 0(1)  	||
+  ||HashTable	     || N/A  	|| 0(1)   	|| 0(1)   	|| 0(1)  	||
+  ||BinaryTree    	|| 0(log(n) || 0(log(n)   ||0(log(n)	|| 0(log(n)  ||
+  ++=================++==========++============++============+
